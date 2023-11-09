@@ -2,7 +2,7 @@ package org.lessons.java.array;
 
 public class CibiPreferiti {
 public static void main(String[] args) {
-	String[] favFood = new String [8];
+	String[] favFood = new String [7];
 	int ind = 0;
 	favFood[ind++] = "Lasagna";
 	favFood[ind++] = "Tortellini";
@@ -11,7 +11,6 @@ public static void main(String[] args) {
 	favFood[ind++] = "Fiorentina";
 	favFood[ind++] = "Gelato";
 	favFood[ind++] = "Pollo";
-	favFood[ind++] = "Friggione";
 	
 	
 	System.out.println("La classifca conta " + favFood.length + " piatti");
